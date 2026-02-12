@@ -1,0 +1,48 @@
+#mycontainer{
+
+    text-align: center;
+    background-color: whitesmoke;
+    height: 500px;
+    border-radius: 20px;
+    margin-top:15px;
+    padding-top: 10px;
+
+}
+#mybutton{
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 25px;
+     width: 150px;
+    border: none;
+    font-size: 1rem;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 8px 8px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#myinput{
+    border: none;
+    width: 300px;
+    height: 27px;
+    border-radius: 8px;
+    
+    padding: 8px 8px 5px;
+}
+#myh1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#myp{
+    margin-right: 320px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#li{
+    display: flex;
+    margin-left: 350px;
+    font-family:Arial, Helvetica, sans-serif
+}
