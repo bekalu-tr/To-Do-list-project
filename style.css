@@ -1,7 +1,7 @@
 #mycontainer{
 
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
     height: 500px;
     border-radius: 20px;
     margin-top:15px;
@@ -24,10 +24,11 @@
 }
 
 #myinput{
-    border: none;
+   border-color: #1DA1F2;
     width: 300px;
     height: 27px;
     border-radius: 8px;
+
     
     padding: 8px 8px 5px;
 }
@@ -35,14 +36,39 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #myp{
-    margin-right: 320px;
+    margin-right: 500px;
     padding: 15px;
     font-size: 20px;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 #li{
     display: flex;
-    margin-left: 350px;
-    font-family:Arial, Helvetica, sans-serif
+    margin-left: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 20px;
 }
+#mylist li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 8px;
+   
+    border-radius: 8px;
+}
+#mylist li div{
+    display: flex;
+    gap: 5px;
+    
+}
+#mylist li div button{
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
